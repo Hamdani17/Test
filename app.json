@@ -1,0 +1,83 @@
+{
+  "name": "JMTHON",
+  "description": " Arabic jmthonc Powerful & Safe based on Telethon",
+  "logo": "https://telegra.ph/file/d90dfa4c680c0d0d2e652.jpg",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/Hamdani17/test",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "هنا ضع اسم التلجرام الخاص بك",
+      "value": "- Տᴏᖴ𝑒 •"
+    },
+    "APP_ID": {
+      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
+      "value": "15192591"
+    },
+    "API_HASH": {
+      "description": "هنا ضع الايبي هاش الخاص بك",
+      "value": "30685a4416b114f1b91921c7b30ca74a"
+    },
+    "ENV": {
+      "description": "لا تغير هذه القيمه",
+      "value": "ANYTHING"
+    },
+    "COMMAND_HAND_LER": {
+      "description": "لا تغير هذه القيمه",
+      "value": "."
+    },
+    "STRING_SESSION": {
+      "description": "هنا ضع كود سيشن تيليثون او بايروجرام كود تيرمكس الخاص بك",
+      "value": "1ApWapzMBu4FOQ4ZABQa5fLSy5UH6R9iiHASRS4db973Wfyc1ZIip2_pe6b3dfrtWGtsUVVO-rwdG3uCk0qYPqyQ-ot1kKCyJXOZ48idiw8V2EnnSUdMXnYi7m6HQ5b9rX8USNAgfxTWQyJ2TGhQTtlak9L-GOSJupMU0bnX5Os2KmbzTNvYEvDBb7uTxTeDbQnvWAzsY3weRClogDHH8BOY0rPsabh-jfWPPr2GETSvcB5Mr4SOlnjpVBsSvz1oj6Oj2dkEl5CLRKtDPPkd_yyNPVMknNdSLdZdu1xq606Vd2TyrAZCfXzQZ1m5X9uj3wB-kVUiCtkVh6qbykUEZQYuCG-ijf1s=",
+      "required": false
+    },
+    "TG_BOT_TOKEN": {
+      "description": "هنا ضع توكن بوتك الذي صنعته",
+      "value": "5189832813:AAFBILrfp0caZtdxtsObNk-jKsuu3bPhKH8"
+    },
+    "HEROKU_API_KEY": {
+      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
+      "value": "f8154bbe-ed26-4e04-a108-3e2b7506a3bc",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اسم التطبيق",
+      "value": "kkkhsiws",
+      "required": false
+    },
+    "TZ": {
+      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
+      "value": "Asia/Baghdad",
+      "required": false
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/danzzcoding/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/riganf/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  },{
+    "url": "heroku/python"
+  }],
+  "stack": "heroku-22"
+}
